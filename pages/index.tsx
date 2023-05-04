@@ -256,7 +256,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <Head>
-        <title>Pokemon Card Search</title>
+        <title>Pokemon Price Predictor</title>
         <meta name="description" content="Search for Pokemon cards" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
