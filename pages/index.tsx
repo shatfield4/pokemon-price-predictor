@@ -256,13 +256,13 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <Head>
-        <title>Pokemon Price Predictor</title>
+        <title>Pokemon Card Price Predictor</title>
         <meta name="description" content="Search for Pokemon cards" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="max-w-7xl mx-auto px-4 py-8">
         <h1 className="text-5xl text-center mb-8 font-light">
-          Pokemon Card Search
+          Pokemon Card Price Predictor
         </h1>
         <div className="flex items-center">
           <form onSubmit={handleSearch} className="w-full flex items-center">
