@@ -202,7 +202,7 @@ const Home = () => {
       "https://api.pokemontcg.io/v2/cards?q=rarity:highest&page=1&pageSize=5&orderBy=-cardmarket.prices.averageSellPrice",
       {
         headers: {
-          "X-Api-Key": apiKey,
+          "X-Api-Key": apiKey!,
         },
       }
     );
@@ -237,7 +237,7 @@ const Home = () => {
       `https://api.pokemontcg.io/v2/cards?q=name:${searchQuery}*`,
       {
         headers: {
-          "X-Api-Key": apiKey,
+          "X-Api-Key": apiKey!,
         },
       }
     );
